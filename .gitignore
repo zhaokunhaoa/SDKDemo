@@ -17,6 +17,7 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 
+
 ## Other
 *.moved-aside
 *.xccheckout
@@ -27,6 +28,23 @@ xcuserdata/
 *.ipa
 *.dSYM.zip
 *.dSYM
+*.xcuserstate
+.idea/
+!default.xcworkspace
+.DS_Store
+archive/
+ipas/
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+.build/
 
 # CocoaPods
 #
@@ -34,7 +52,10 @@ xcuserdata/
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
+*.xcbkptlist
+!Pods-PrincipalAssist-resources.sh
+npm-debug.log
 
 # Carthage
 #
@@ -52,12 +73,5 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/Preview.html
-fastlane/screenshots/**/*.png
+fastlane/screenshots
 fastlane/test_output
-
-# Code Injection
-#
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
-
-iOSInjectionProject/
